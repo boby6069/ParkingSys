@@ -35,7 +35,7 @@ Partial Class Form4
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
         DataGridView1.Location = New Point(-2, 99)
         DataGridView1.Name = "DataGridView1"
-        DataGridView1.Size = New Size(803, 291)
+        DataGridView1.Size = New Size(508, 291)
         DataGridView1.TabIndex = 0
         ' 
         ' TextBox1
@@ -53,7 +53,7 @@ Partial Class Form4
         Label3.BackColor = Color.Black
         Label3.Font = New Font("Segoe UI", 27.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = Color.White
-        Label3.Location = New Point(347, 25)
+        Label3.Location = New Point(208, 22)
         Label3.Name = "Label3"
         Label3.Size = New Size(99, 50)
         Label3.TabIndex = 9
@@ -63,7 +63,7 @@ Partial Class Form4
         ' 
         exitbtn.BackColor = Color.Red
         exitbtn.ForeColor = SystemColors.ActiveCaptionText
-        exitbtn.Location = New Point(613, 402)
+        exitbtn.Location = New Point(340, 402)
         exitbtn.Name = "exitbtn"
         exitbtn.Size = New Size(74, 36)
         exitbtn.TabIndex = 16
@@ -74,7 +74,7 @@ Partial Class Form4
         ' 
         backbtn.BackColor = Color.DodgerBlue
         backbtn.ForeColor = SystemColors.ActiveCaptionText
-        backbtn.Location = New Point(714, 402)
+        backbtn.Location = New Point(420, 402)
         backbtn.Name = "backbtn"
         backbtn.Size = New Size(74, 36)
         backbtn.TabIndex = 17
@@ -86,7 +86,7 @@ Partial Class Form4
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Gold
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(506, 442)
         Controls.Add(backbtn)
         Controls.Add(exitbtn)
         Controls.Add(Label3)
